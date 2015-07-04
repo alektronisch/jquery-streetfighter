@@ -11,7 +11,7 @@ body {
 	z-index: 1;
 }
 .ryu {
-	float: left; /* check it */
+	/* float: left; check it */
 	width: 659px;
 	height: 494px;
 }
@@ -49,15 +49,16 @@ div.hadouken {
 	background-image: url('../images/hadouken.gif');
 	width: 156px;
 	height: 90px;
-	/* display: none; */
+	display: none;
 	float: left;
 	position: absolute;
 	z-index: 10;
-	top: 0px;
-	left: 0px;
+	top: 167px;
+	left: 520px;
 }
 
-* {
+/* * {
 	outline: red 1px solid;
-}
+} */
+
 
